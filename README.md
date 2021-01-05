@@ -5,7 +5,13 @@
 2. Masuk ke directory hasil clone menggunakan perintah / command -> `cd responsi-docker`
 3. Untuk running, CUKUP ketikkan perintah / command -> `docker-compose up -d`
 4. Lalu buka web browser, pada kolom URL, ketikkan -> `localhost` ATAU `localhost:80`
-4. Untuk stop / menghentikannya, ketikkan perintah / command -> `docker-compose down`
+5. JIKALAU, ingin mengakses database nya, maka pada kolom URL web browser, ketikkan -> `localhost:8080`
+   - System : MySQL
+   - Server : db
+   - Username : root
+   - Password : example
+   - Database : responsi
+6. Untuk stop / menghentikannya, ketikkan perintah / command -> `docker-compose down`
 
 ## NOTE PENTING!
 ###### TIDAK PERLU MENDOWNLOAD IMAGES-IMAGES secara manual melalui Docker Hub atau yang lainnya, dikarenakan :
