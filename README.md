@@ -21,7 +21,7 @@
 
 ###### JIKALAU, saat membuka `localhost` ATAU `localhost:80` terdapat error MySQL pada website, itu dikarenakan :
 - Database sudah terkoneksi, namun tidak ditemukan, sehingga harus membuat database terlebih dahulu, dengan cara :
-1. Pada kolom URL Web Browser, ketikkan -> localhost:8080 -> ini berfungsi untuk membuka halaman database Adminer
+1. Pada kolom URL Web Browser, ketikkan -> `localhost:8080` -> ini berfungsi untuk membuka halaman database Adminer
 2. Masuk ke database Adminer sebagai superuser dengan data sebagai berikut :
    - System : MySQL
    - Server : db
@@ -29,7 +29,7 @@
    - Password : example
    - Database : (leave empty) -> kosongkan kolom ini!
 3. Sesudah memasukkan data seperti di atas, klik Login
-4. Tinggal membuat database dengan nama "responsi", lalu buat 1 table saja dengan nama "mahasiswa", isi dari tablenya adalah :
+4. Tinggal membuat database dengan nama `responsi`, lalu buat 1 table saja dengan nama `mahasiswa`, isi dari tablenya adalah :
    - kampus -> varchar(100)
    - nama -> varchar(100)
    - nim -> varchar(15)
@@ -38,6 +38,6 @@
    - matkul -> varchar(30)
    - dosen -> varchar(100)
 5. JGN BERI PRIMARY KEY atau KEY APAPUN pada setiap column table!, dan tidak perlu mengisi data pada table tersebut!
-6. Sekarang, pada kolom URL Web Browser, ketikkan kembali -> localhost ATAU localhost:80
+6. Sekarang, pada kolom URL Web Browser, ketikkan kembali -> `localhost` ATAU `localhost:80`
 
 ***THANK YOU!***
